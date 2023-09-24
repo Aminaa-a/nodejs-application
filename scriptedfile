@@ -4,6 +4,7 @@ node{
     git 'https://github.com/Aminaa-a/nodejs-application'
   }
   stage('UnitTest'){
+     sh "echo unir npm test"
     //sh "npm test"
   }
   stage('Build'){
