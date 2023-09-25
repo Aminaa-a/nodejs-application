@@ -32,7 +32,7 @@ node{
   stage('deployment'){
     sh "echo Deploying applications"
     //nodejs(nodeJSInstallationName: 'NodeJS20.7.0') {
-        sh 'npm start'
+        //sh 'npm start'
     //}
   }
 }
